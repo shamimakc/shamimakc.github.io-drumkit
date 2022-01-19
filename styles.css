@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+  background-color: #142850;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBECF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0362;
+
+}
+
+p {
+  font-size: 1rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  margin: 25px 50px 0px;
+  border: 2px
+}
+
+button {
+    border-radius: 8px;
+    margin: 25px 50px 0px;
+    font-family: "Arvo", cursive;
+    font-size: 1rem;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+  margin: 150px 50px 0px;
+}
+
+.w {
+  background-image: url("images/tom4.png");
+}
+
+.a {
+  background-image: url("images/tom3.png");
+}
+
+.s {
+  background-image: url("images/tom2.png");
+}
+
+.d {
+  background-image: url("images/tom1.png");
+}
+
+.j {
+  background-image: url("images/snare.png");
+}
+
+.k {
+  background-image: url("images/kick.png");
+}
+
+.l {
+  background-image: url("images/crash.png");
+}
+
+.set {
+  margin: 7% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.pressed-beat-generator {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #27496D;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
